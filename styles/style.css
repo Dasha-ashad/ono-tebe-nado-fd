@@ -1,1 +1,280 @@
 /* место для вашего кода */
+.header {
+  /*height: 293;*/
+  padding: 92px 50px 96px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.list-inline {
+  display: flex;
+  gap: 13px;
+  list-style-type: circle;
+  list-style-position: inside;
+  text-decoration-skip-ink: none;
+}
+
+.link-dicorat-none {
+  text-decoration: none;
+}
+
+.list-marker-none {
+  list-style: none;
+  text-decoration-skip-ink: none;
+}
+
+.logo {
+  width: 148px;
+  height: 110px;
+  margin: 0px 36px;
+}
+
+.address {
+  justify-self: end;
+  height: 98px;
+  max-width: 240px;
+  margin-left: 148px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35;
+  color: #000;
+  text-decoration-skip-ink: none;
+}
+
+.cover {
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #eee;
+  margin-bottom: 184px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+
+.title {
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 165px 50px 106px 50px;
+  position: relative;
+}
+
+.title-ono {
+  padding-right: 712px;
+}
+
+.title-tebe {
+  padding-top: 20px;
+  padding-left: 321px;
+}
+
+.title-nado {
+  padding-top: 20px;
+  padding-left: 613px;
+}
+
+.description {
+  display: inline-block;
+  font-size: 0;
+  width: 1000px;
+  height: 51px;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 22px;
+  word-spacing: 1.1rem;
+  line-height: 1.27273;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.cover-button {
+  position: relative;
+  z-index: 2;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 12px 32px;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin-left: 105px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.lots {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 120px;
+  /*display: grid;
+  grid-template-columns: 9fr;
+  row-gap: 25;*/
+}
+
+.caption {
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
+
+.lots__card-list-item{
+  display: flex;
+}
+
+.cards {
+  /* height: 596px;
+  width: 334px;
+   */
+  display: flex;
+  justify-content: space-between;
+  column-gap: 25px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.card-title {
+
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  position: relative;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #fff;
+  position: relative;
+}
+
+.card {
+  display: flex;
+ flex-direction: column;
+  justify-content: space-between;
+  min-height: 596px;
+  width: 334px;
+  padding: 48px 40px 30px 48px;
+}
+
+.card-first {
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-second {
+  background-image: url("../images/card-lot-02.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-third {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cards-more {
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 40px;
+  text-decoration-skip-ink: none;
+}
+
+.about {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 180px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 24px;
+}
+
+.about-logo {
+  width: 148px;
+  height: 114px;
+  margin-left: 47px;
+  margin-top: 64px;
+}
+
+.logo-column {
+  background-color: #000;
+  margin-top: 35px;
+  margin-left: 47px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.about-title {
+  margin-top: 136px;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 24px; */
+  line-height: 1.2;
+  color: #000;
+}
+
+.about-text1 {
+  margin-bottom: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 50px 82px 50px;
+}
+
+.left {
+  margin-left: 0;
+}
+
+.footer-nav {
+  text-align: center;
+}
+
+.icons {
+  width: 240px;
+  height: 48px;
+  gap: 48px;
+}
