@@ -1,4 +1,13 @@
-/* место для вашего кода */
+.body,
+h1,
+h2,
+h3,
+h4,
+p {
+  font-weight: normal;
+  font-size: 100%;
+}
+
 .header {
   /*height: 293;*/
   padding: 92px 50px 96px;
@@ -9,13 +18,14 @@
 
 .list-inline {
   display: flex;
-  gap: 13px;
+  gap: 7px;
   list-style-type: circle;
   list-style-position: inside;
   text-decoration-skip-ink: none;
+  font-size: 18px;
 }
 
-.link-dicorat-none {
+.link-decoration-none {
   text-decoration: none;
 }
 
@@ -26,8 +36,8 @@
 
 .logo {
   width: 148px;
-  height: 110px;
-  margin: 0px 36px;
+  height: 105px;
+  margin: 0 36px;
 }
 
 .address {
@@ -50,7 +60,7 @@
   background-position: center;
   background-repeat: no-repeat;
   color: #eee;
-  margin-bottom: 184px;
+  margin-bottom: 180px;
 }
 
 .overlay {
@@ -63,6 +73,11 @@
 }
 
 .title {
+  display: grid;
+  row-gap: 20px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   font-size: 100px;
   line-height: 1.15;
   letter-spacing: 0.3em;
@@ -74,16 +89,17 @@
 
 .title-ono {
   padding-right: 712px;
+  position: relative;
 }
 
 .title-tebe {
-  padding-top: 20px;
-  padding-left: 321px;
+  padding-left: 331px;
+  position: relative;
 }
 
 .title-nado {
-  padding-top: 20px;
   padding-left: 613px;
+  position: relative;
 }
 
 .description {
@@ -128,9 +144,6 @@
   padding-left: 24px;
   padding-right: 24px;
   margin-bottom: 120px;
-  /*display: grid;
-  grid-template-columns: 9fr;
-  row-gap: 25;*/
 }
 
 .caption {
@@ -142,14 +155,11 @@
   color: #000;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
   display: flex;
 }
 
 .cards {
-  /* height: 596px;
-  width: 334px;
-   */
   display: flex;
   justify-content: space-between;
   column-gap: 25px;
@@ -158,7 +168,6 @@
 }
 
 .card-title {
-
   text-transform: uppercase;
   padding-bottom: 30px;
   font-weight: 700;
@@ -180,11 +189,11 @@
 
 .card {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   justify-content: space-between;
   min-height: 596px;
   width: 334px;
-  padding: 48px 40px 30px 48px;
+  padding: 48px 40px 48px 40px;
 }
 
 .card-first {
@@ -221,7 +230,7 @@
   margin-bottom: 180px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 24px;
+  column-gap: 12px;
 }
 
 .about-logo {
@@ -242,12 +251,12 @@
 
 .about-title {
   margin-top: 136px;
+  margin-left: 0;
   margin-bottom: 100px;
 }
 
 .about-text {
-  margin-left: 40px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
   /* line-height: 24px; */
   line-height: 1.2;
@@ -262,10 +271,12 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
+  font-size: 18px;
+  font-weight: 400;
   padding: 0 50px 82px 50px;
 }
 
-.left {
+.footer-address-left {
   margin-left: 0;
 }
 
